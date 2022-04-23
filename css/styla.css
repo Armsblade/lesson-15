@@ -1,0 +1,151 @@
+body {
+    font-family: sans-serif;
+    color: #222222;
+    font-family: 'Fira Sans', sans-serif;
+}
+h1,
+h4,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 60px
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+section {
+    position: relative;
+    background-color: #D9D3D3;
+    width: 1360px;
+    margin: 0 auto;
+}
+.fon1{
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    background: #151515;
+    opacity: 0.05;
+    left: 584px;
+    z-index: 2;
+}
+.fon2{
+    position: absolute;
+    background: #151515;
+    opacity: 0.05;
+    width: 70px;
+    height: 100%;
+    top: 0;
+    left: 484px;
+    z-index: 1;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 60px 125px 0 125px;
+}
+a {
+  
+    border: 0;
+    text-decoration: none;
+    color: #222222;
+    z-index: 1;
+}
+.logo-navigation nav{
+ 
+    display: flex;
+    margin-bottom: 140px;
+}
+.logo {
+   display: flex;
+     
+}
+
+.logo-stiky {
+    position: sticky; 
+     top: 0;
+}
+
+.navigation {
+    display: flex;
+}
+nav {
+    width: 470px;
+    display: flex;
+    justify-content:space-between ;
+    margin-left: 560px;
+}
+.content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 516px;
+    height: 216px;
+    margin-bottom: 70px;
+    flex-wrap:nowrap;
+}
+
+
+
+.button-logo  {
+    width: 302px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 241px;
+    
+}
+
+button {
+    padding: 16px 45px;
+    background-color: #4737FF;
+    cursor: pointer;
+    border: 0;
+    vertical-align: middle;
+}
+
+.logo1 {
+    width: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-self:baseline;
+    
+
+}
+
+.list-button {
+    display: flex;
+   
+}
+
+.list {
+  display: flex;
+    padding: 20px;
+    margin-right: 5px;
+    
+     margin-bottom: 60px;
+     cursor: pointer;
+}
+.list:hover {
+    padding: 20px;
+    background-color: #F96241;
+}
+
+.list:focusv{
+    padding: 20px;
+    border: 1px solid #61ee20;
+    
+   
+}
+
+.flex-foto {
+    position:absolute;
+    top: 170px;
+    left: 760px;
+
+}
